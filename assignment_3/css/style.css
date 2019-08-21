@@ -1,0 +1,92 @@
+/*Universal Selector*/
+* {
+  margin: 0;
+  padding: 0;
+}
+
+/*types of color*/
+
+.color1,
+.color2,
+.color3,
+.color4,
+.color5,
+.color6 {
+  height: 300px;
+  width: 200px;
+}
+.color1 {
+  background-color: blue;
+}
+
+.color2 {
+  background-color: #000000;
+}
+
+.color3 {
+  background-color: rgba(240, 225, 17, 0.548);
+}
+
+.color4 {
+  background-color: rgb(151, 219, 41);
+}
+
+.color5 {
+  background-image: linear-gradient(to right, gray, black);
+}
+
+/*shadow*/
+.shadowtext {
+  font-size: 40px;
+  text-shadow: 15px 7px 1.5px #666666;
+}
+
+/*types of selectors*/
+
+/*class selector*/
+.class-s {
+  background-color: #444444;
+  font-size: 36px;
+}
+/*id selector*/
+#id-s {
+  background-color: #444444;
+  font-size: 36px;
+}
+/*type selector*/
+h2 {
+  background-color: aqua;
+  font-size: 36px;
+}
+
+/*Child Selector*/
+.child-s > p {
+  font-size: 25px;
+  color: blueviolet;
+}
+
+/*Descendant Selector*/
+.descendant-s {
+  font-size: 20px;
+  color: rebeccapurple;
+}
+
+.inheritance {
+  width: 600px;
+  height: 400px;
+  background-color: aqua;
+}
+
+.inheritchild {
+  height: 200px;
+  width: inherit;
+  background-color: rgba(33, 179, 28, 0.849);
+  font-size: 20px;
+  border-radius: 10px;
+}
+
+/*Adjacent Selector*/
+span + h1 {
+  font-size: 40px;
+  background-color: brown;
+}
